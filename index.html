@@ -3,11 +3,626 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mein Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Hello I am Meilow</h1>
-    <p>Welcome to my portfolio, this is a WIP</p>
+<header>
+  <div class="header-inner">
+    <div class="logo-block">
+      <h1>Art Portfolio of <em> Meilow</em></h1>
+      <div class="typewriter-tagline" id="tagline"></div>
+    </div>
+    <nav>
+      <a href="#gallery">Artwork</a>
+      <a href="#games">Games</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ══════════════════════════════════════
+     ART GALLERY
+═══════════════════════════════════════ -->
+<section id="gallery">
+  <div class="section-wrap">
+    <div class="section-label reveal"><span>01 — Artwork</span></div>
+    <h2 class="section-title reveal">Concepts, Designs & Illustrations</h2>
+    <p class="section-subtitle reveal">Click for more details</p>
+  </div>
+
+  <div class="gallery-scroll-wrapper reveal">
+    <div class="gallery-track" id="galleryTrack">
+
+      <!-- CARD 1 -->
+      <article class="art-card" data-id="1"
+        data-title="Mother Goose"
+        data-medium="Digital Illustration"
+        data-year="2024"
+        data-tags="character, concept"
+        data-description="Mock-up design for a Dark Souls inspired boss">
+        <div class="art-card-img-wrap">
+           <img src="images/MotherGoose.jpg" alt="Woman with deformed goose body parts">
+        </div>
+        <div class="art-card-meta">
+          <div class="art-card-title">Mother Goose</div>
+          <div class="art-card-medium">Digital illustraion · 2024</div>
+        </div>
+        <div class="art-card-zoom-hint">⊕</div>
+      </article>
+
+      <!-- CARD 2 -->
+      <article class="art-card" data-id="2"
+        data-title="Goosling"
+        data-medium="Digital illustration"
+        data-year="2024"
+        data-tags="character art, concept"
+        data-description="Mock-up mob enemy design">
+        <div class="art-card-img-wrap">
+          <img src="images/goosling.png" alt="Deformed goose-human hybrid">
+        </div>
+        <div class="art-card-meta">
+          <div class="art-card-title">Goosling</div>
+          <div class="art-card-medium">Digital illustration · 2024</div>
+        </div>
+        <div class="art-card-zoom-hint">⊕</div>
+      </article>
+
+      <!-- CARD 3 -->
+      <article class="art-card" data-id="3"
+        data-title="Focus"
+        data-medium="Digital illustration"
+        data-year="2024"
+        data-tags="digital art, character art, concept"
+        data-description="Illustration based on a Twin Apex song. Memories are beautiful, but sometimes they only are if you forget the bad details.">
+        <div class="art-card-img-wrap">
+          <img src="images/Focus.png" alt="Bird character in field">
+        </div>
+        <div class="art-card-meta">
+          <div class="art-card-title">Focus</div>
+          <div class="art-card-medium">Digital illustration · 2024</div>
+        </div>
+        <div class="art-card-zoom-hint">⊕</div>
+      </article>
+
+      <!-- CARD 4 -->
+      <article class="art-card" data-id="4"
+        data-title="Magic sfx"
+        data-medium="Digital illustration"
+        data-year="2025"
+        data-tags="digital art,concept"
+        data-description="Concept for magic sfx design">
+        <div class="art-card-img-wrap">
+           <img src="images/magic.png" alt="magical aura">
+        </div>
+        <div class="art-card-meta">
+          <div class="art-card-title">Magic sfx</div>
+          <div class="art-card-medium">digital illustration · 20xx</div>
+        </div>
+        <div class="art-card-zoom-hint">⊕</div>
+      </article>
+
+      <!-- CARD 5 -->
+      <article class="art-card" data-id="5"
+        data-title="Sensitive Skin"
+        data-medium="Digital illustration"
+        data-year="2025"
+        data-tags="digital art, character art"
+        data-description="Personal Piece">
+        <div class="art-card-img-wrap">
+           <img src="images/SensitiveSkin.png" alt="transparent girl sitting in water, bones showing">
+        </div>
+        <div class="art-card-meta">
+          <div class="art-card-title">Sensitive Skin</div>
+          <div class="art-card-medium">Digital illustration · 2025</div>
+        </div>
+        <div class="art-card-zoom-hint">⊕</div>
+      </article>
+
+      <!-- CARD 6 -->
+      <article class="art-card" data-id="6"
+        data-title="wip"
+        data-medium="Digital illustration"
+        data-year="20xx"
+        data-tags="digital art, character art, concept"
+        data-description="wip">
+        <div class="art-card-img-wrap">
+          <div class="art-placeholder"></div>
+        </div>
+        <div class="art-card-meta">
+          <div class="art-card-title">wip</div>
+          <div class="art-card-medium">digital illustration · 20xx</div>
+        </div>
+        <div class="art-card-zoom-hint">⊕</div>
+      </article>
+
+      <!-- CARD 7 -->
+      <article class="art-card" data-id="7"
+        data-title="wip"
+        data-medium="Digital illustration"
+        data-year="20xx"
+        data-tags="digital art, character art, concept"
+        data-description="wip">
+        <div class="art-card-img-wrap">
+          <div class="art-placeholder"></div>
+        </div>
+        <div class="art-card-meta">
+          <div class="art-card-title">wip</div>
+          <div class="art-card-medium">digital illustration · 20xx</div>
+        </div>
+        <div class="art-card-zoom-hint">⊕</div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<div class="ornament-divider reveal" aria-hidden="true">· · ·</div>
+
+<!-- ══════════════════════════════════════
+     GAMES SECTION
+═══════════════════════════════════════ -->
+<section id="games">
+  <div class="section-wrap">
+    <div class="section-label reveal"><span>02 — Game Development</span></div>
+    <h2 class="section-title reveal">Current and finished projects</h2>
+    <p class="section-subtitle reveal">Click for more details</p>
+  </div>
+
+  <div class="section-wrap">
+    <div class="games-list">
+
+      <!-- ── GAME 1 (thumbnail links) ── -->
+      <div class="game-row left-img reveal" data-game="0">
+        <div class="game-thumb-side">
+          <div class="game-thumb-wrap" role="button" aria-expanded="false">
+            <div class="game-thumb-placeholder" style="background:linear-gradient(135deg,#3d5c28,#7a9456,#c8d4b0)"></div>
+            <div class="game-thumb-overlay">
+              <span class="game-thumb-cta">more details</span>
+            </div>
+            <span class="game-status-badge badge-wip">Finished</span>
+          </div>
+        </div>
+        <div class="game-info-side">
+          <div class="game-number">Project 01</div>
+          <h3 class="game-title">Long Way Up</h3>
+          <div class="game-genre">2D Shoot´em up / Rouguelite</div>
+          <p class="game-desc">Once a guardian of the sky, the mighty dragon, Long, has fallen - Help him fight back against his demonic captors and reach the sky once again.</p>
+          <div class="game-tech-list">
+            <span class="tech-tag">Unity</span>
+            <span class="tech-tag">Clip Studio Paint</span>
+          </div>
+          <button class="game-expand-btn" aria-expanded="false">
+            See more <em class="arrow">↓</em>
+          </button>
+        </div>
+        <div class="game-expand-panel" aria-hidden="true">
+          <div class="game-expand-inner">
+            <div>
+              <div class="expand-heading">Gameplay</div>
+              <div class="media-grid">
+                <div class="media-item">
+                  <div class="media-placeholder"><span class="icon"></span><span>placeholder.gif</span></div>
+                </div>
+                <div class="media-item">
+                  <div class="media-placeholder"><span class="icon"></span><span>placeholder.gif</span></div>
+                </div>
+                <div class="media-item">
+                  <div class="media-placeholder"><span class="icon"></span><span>concept art</span></div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="expand-heading">About</div>
+              <p class="expand-description">This game was made by a 4 person team for a university assignment...I made the art, game concept and all animations - including the ui</p>
+            </div>
+            <div>
+              <div class="expand-heading">Features</div>
+              <ul class="expand-feature-list">
+                <li>Hand drawn assets</li>
+                <li>4 Playable Levels including Boss fight</li>
+                <li>Permanent aquirable updates</li>
+                <li>Multiple Attack modes</li>
+                <li>Final 2D animated cutscene</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── GAME 2 (thumbnail rechts) ── -->
+      <div class="game-row right-img reveal" data-game="1">
+        <div class="game-info-side">
+          <div class="game-number">Project 02</div>
+          <h3 class="game-title">Nora - ein Puppenheim</h3>
+          <div class="game-genre">VR Puzzle / Escape room</div>
+          <p class="game-desc">Take on the roll of Nora - a housewife in peril....</p>
+          <div class="game-tech-list">
+            <span class="tech-tag">Unity</span>
+            <span class="tech-tag">Blender</span>
+            <span class="tech-tag">Clip Studio Paint</span>
+          </div>
+          <button class="game-expand-btn" aria-expanded="false">
+            See more <em class="arrow">↓</em>
+          </button>
+        </div>
+        <div class="game-thumb-side">
+          <div class="game-thumb-wrap" role="button" aria-expanded="false">
+            <div class="game-thumb-placeholder" style="background:linear-gradient(135deg,#1a1612,#3d3020,#5c3d1e)"></div>
+            <div class="game-thumb-overlay">
+              <span class="game-thumb-cta">More Details</span>
+            </div>
+            <span class="game-status-badge badge-prototype">finished</span>
+          </div>
+        </div>
+        <div class="game-expand-panel" aria-hidden="true">
+          <div class="game-expand-inner">
+            <div>
+              <div class="expand-heading">Gameplay</div>
+              <div class="media-grid">
+                <div class="media-item">
+                  <div class="media-placeholder"><span class="icon"></span><span>placeholder.gif</span></div>
+                </div>
+                <div class="media-item">
+                  <div class="media-placeholder"><span class="icon"></span><span>placeholder.gif</span></div>
+                </div>
+                <div class="media-item">
+                  <div class="media-placeholder"><span class="icon"></span><span>cocept art</span></div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="expand-heading">About</div>
+              <p class="expand-description">...</p>
+            </div>
+            <div>
+              <div class="expand-heading">Features</div>
+              <ul class="expand-feature-list">
+                <li>VR application</li>
+                <li>Unique character models</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── GAME 3 (thumbnail links) ── -->
+      <div class="game-row left-img reveal" data-game="2">
+        <div class="game-thumb-side">
+          <div class="game-thumb-wrap" role="button" aria-expanded="false">
+            <div class="game-thumb-placeholder" style="background:linear-gradient(135deg,#9c6e3a,#c8a97a,#f5e8d0)"></div>
+            <div class="game-thumb-overlay">
+              <span class="game-thumb-cta">More Details</span>
+            </div>
+            <span class="game-status-badge badge-released">WIP</span>
+          </div>
+        </div>
+        <div class="game-info-side">
+          <div class="game-number">Project 03</div>
+          <h3 class="game-title">(no title yet)</h3>
+          <div class="game-genre">2D Metroidvania / Puzzle</div>
+          <p class="game-desc">My current game...</p>
+          <div class="game-tech-list">
+            <span class="tech-tag">Unity</span>
+            <span class="tech-tag">Clip Studio Paint</span>
+          </div>
+          <button class="game-expand-btn" aria-expanded="false">
+            See more <em class="arrow">↓</em>
+          </button>
+        </div>
+        <div class="game-expand-panel" aria-hidden="true">
+          <div class="game-expand-inner">
+            <div>
+              <div class="expand-heading">Gameplay</div>
+              <div class="media-grid">
+                <div class="media-item">
+                  <div class="media-placeholder"><span class="icon"></span><span>placeholder.gif</span></div>
+                </div>
+                <div class="media-item">
+                  <div class="media-placeholder"><span class="icon"></span><span>placeholder.gif</span></div>
+                </div>
+                <div class="media-item">
+                  <div class="media-placeholder"><span class="icon"></span><span>Concept Art</span></div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="expand-heading">About</div>
+              <p class="expand-description">Play as Inkwell, a language scholar who looks over language as we know. One day, many words seem to loose their meanings, leading to...</p>
+            </div>
+            <div>
+              <div class="expand-heading">Features</div>
+              <ul class="expand-feature-list">
+                <li>Hand drawn assets</li>
+                <li>Room System</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════ -->
+<div class="ornament-divider" aria-hidden="true" style="padding-top:48px">· · ·</div>
+<footer id="contact">
+
+  <!-- ── Top: Brand + Navigation Columns ── -->
+  <div class="footer-top">
+
+    <div class="footer-brand-col">
+      <div class="footer-brand">Meilow</div>
+      <p class="footer-tagline">Hobbyist turned Student</p>
+      <div class="footer-social">
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">Navigation</div>
+      <ul>
+        <li><a href="#gallery">Artwork</a></li>
+        <li><a href="#games">Games</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">Contact</div>
+      <address>
+        make an email<br>
+        <!-- <a href="mailto:name@example.com">Schreib mir</a> -->
+      </address>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">Legalities</div>
+      <ul>
+        <li><a href="#" id="openImpressum">Impressum</a></li>
+        <li><a href="#">Datenschutz</a></li>
+        <li><a href="#">Lizenz &amp; Nutzung</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- ── Impressum Klapppanel ── -->
+  <div class="impressum-toggle-wrap">
+    <button class="impressum-toggle-btn" id="impressumBtn" aria-expanded="false">
+      <em class="imp-arrow">↓</em> show Impressum 
+    </button>
+    <div class="impressum-panel" id="impressumPanel" aria-hidden="true">
+      <div class="impressum-inner">
+
+        <div>
+          <div class="imp-section-title">Angaben gemäß § 5 TMG</div>
+          <p class="imp-text">
+            Vorname Nachname<br>
+            Straße<br>
+            PLZ<br>
+            Deutschland
+          </p>
+        </div>
+
+        <div>
+          <div class="imp-section-title">Kontakt</div>
+          <p class="imp-text">
+            Telefon: --<br>
+            E-Mail: <a href="mailto:name@example.com">mail</a><br><br>
+          </p>
+        </div>
+
+        <div>
+          <div class="imp-section-title">(muss nochmal geprüft werden, placeholder) Verantwortlich für den Inhalt</div>
+          <p class="imp-text">
+            Vorname Nachname<br>
+            (Anschrift wie oben)<br><br>
+            Alle Inhalte, Texte, Illustrationen und Spielentwicklungen auf dieser Seite sind urheberrechtlich geschützt und dürfen ohne ausdrückliche Genehmigung nicht vervielfältigt oder verwendet werden.
+          </p>
+        </div>
+
+        <div class="imp-disclaimer">
+          <strong>Haftungsausschluss:</strong> Die Inhalte dieser Seite wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden. Als Dienstanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Dienstanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.<br><br>
+          <strong>Urheberrecht:</strong> Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Bottom Bar ── -->
+  <div class="footer-bottom">
+    <p>© 2026 Meilow<span class="dot">·</span>all rights reserved</p>
+  </div>
+
+</footer>
+
+</main>
+
+<!-- ══════════════════════════════════════
+     ART ZOOM OVERLAY
+═══════════════════════════════════════ -->
+<div class="art-overlay" id="artOverlay" role="dialog" aria-modal="true" aria-label="Kunstwerk-Detail">
+  <div class="art-overlay-bg" id="overlayBg"></div>
+  <div class="art-overlay-content" id="overlayContent">
+    <button class="overlay-close" id="overlayClose" aria-label="Schließen">×</button>
+    <div class="art-overlay-img-wrap" id="overlayImgWrap"></div>
+    <div class="art-overlay-info" id="overlayInfo"></div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     SCRIPTS
+═══════════════════════════════════════ -->
+<script>
+/* ─── IMPRESSUM TOGGLE ─── */
+(function() {
+  const btn      = document.getElementById('impressumBtn');
+  const panel    = document.getElementById('impressumPanel');
+  const openLink = document.getElementById('openImpressum');
+
+  function toggle() {
+    const isOpen = panel.classList.contains('open');
+    panel.classList.toggle('open');
+    panel.setAttribute('aria-hidden', isOpen ? 'true' : 'false');
+    btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+    btn.classList.toggle('open');
+    btn.querySelector('.imp-arrow').textContent = isOpen ? '↓' : '↑';
+    if (!isOpen) setTimeout(() => panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 80);
+  }
+
+  if (btn)      btn.addEventListener('click', toggle);
+  if (openLink) openLink.addEventListener('click', e => { e.preventDefault(); toggle(); });
+})();
+
+/* ─── TYPEWRITER ─── */
+(function() {
+  const lines = [
+    'Student of Media Science and Media IT',
+    'Digital art · Concept Art · Games',
+  ];
+  let li = 0, ci = 0, deleting = false;
+  const el = document.getElementById('tagline');
+
+  function tick() {
+    const line = lines[li];
+    if (!deleting) {
+      el.textContent = line.slice(0, ++ci);
+      if (ci === line.length) {
+        deleting = true;
+        setTimeout(tick, 2400); return;
+      }
+    } else {
+      el.textContent = line.slice(0, --ci);
+      if (ci === 0) {
+        deleting = false;
+        li = (li + 1) % lines.length;
+      }
+    }
+    setTimeout(tick, deleting ? 36 : 54);
+  }
+  setTimeout(tick, 800);
+})();
+
+/* ─── SCROLL REVEAL ─── */
+(function() {
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal').forEach((el, i) => {
+    el.style.transitionDelay = (i * 0.04) + 's';
+    obs.observe(el);
+  });
+})();
+
+/* ─── GALLERY DRAG SCROLL ─── */
+(function() {
+  const track = document.getElementById('galleryTrack');
+  let isDown = false, startX, scrollLeft;
+
+  track.addEventListener('mousedown', e => {
+    isDown = true; track.style.cursor = 'grabbing';
+    startX = e.pageX - track.offsetLeft;
+    scrollLeft = track.scrollLeft;
+  });
+  document.addEventListener('mouseup', () => { isDown = false; track.style.cursor = 'grab'; });
+  track.addEventListener('mousemove', e => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - track.offsetLeft;
+    track.scrollLeft = scrollLeft - (x - startX) * 1.4;
+  });
+  track.addEventListener('mouseleave', () => isDown = false);
+})();
+
+/* ─── ART OVERLAY ─── */
+(function() {
+  const overlay  = document.getElementById('artOverlay');
+  const bg       = document.getElementById('overlayBg');
+  const closeBtn = document.getElementById('overlayClose');
+  const imgWrap  = document.getElementById('overlayImgWrap');
+  const infoEl   = document.getElementById('overlayInfo');
+
+  function openOverlay(card) {
+    const d = card.dataset;
+    const originalImg = card.querySelector('.art-card-img-wrap img');
+    imgWrap.innerHTML = `<img src="${originalImg.src}" alt="${originalImg.alt}" style="max-width:100%; height:auto; display:block;">`;
+    infoEl.innerHTML = `
+      <div class="art-overlay-category">${d.medium}</div>
+      <h3 class="art-overlay-title">${d.title}</h3>
+      <p class="art-overlay-desc">${d.description}</p>
+      <div class="art-overlay-tags">${d.tags.split(',').map(t=>`<span class="art-tag">${t.trim()}</span>`).join('')}</div>
+      <div class="art-overlay-year">${d.year}</div>
+    `;
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    closeBtn.focus();
+  }
+
+  function closeOverlay() {
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.art-card').forEach(card => {
+    card.addEventListener('click', () => openOverlay(card));
+    card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openOverlay(card); }});
+    card.setAttribute('tabindex', '0');
+    card.setAttribute('role', 'button');
+  });
+
+  bg.addEventListener('click', closeOverlay);
+  closeBtn.addEventListener('click', closeOverlay);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeOverlay(); });
+})();
+
+/* ─── GAME EXPAND ─── */
+(function() {
+  document.querySelectorAll('.game-row').forEach(row => {
+    const btn       = row.querySelector('.game-expand-btn');
+    const panel     = row.querySelector('.game-expand-panel');
+    const thumbWrap = row.querySelector('.game-thumb-wrap');
+
+    function toggle() {
+      const isOpen = panel.classList.contains('open');
+      if (isOpen) {
+        panel.classList.remove('open');
+        panel.setAttribute('aria-hidden', 'true');
+        btn.setAttribute('aria-expanded', 'false');
+        if (thumbWrap) thumbWrap.setAttribute('aria-expanded', 'false');
+        row.classList.remove('expanded');
+      } else {
+        panel.classList.add('open');
+        panel.setAttribute('aria-hidden', 'false');
+        btn.setAttribute('aria-expanded', 'true');
+        if (thumbWrap) thumbWrap.setAttribute('aria-expanded', 'true');
+        row.classList.add('expanded');
+        // Smooth scroll to expanded section after animation
+        setTimeout(() => {
+          panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }, 100);
+      }
+    }
+
+    if (btn) btn.addEventListener('click', toggle);
+    if (thumbWrap) {
+      thumbWrap.addEventListener('click', toggle);
+      thumbWrap.setAttribute('tabindex', '0');
+      thumbWrap.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }});
+    }
+  });
+})();
+</script>
 </body>
 </html>
